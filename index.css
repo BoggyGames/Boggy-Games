@@ -5,7 +5,7 @@ body {
 }
 @font-face {
     font-family: CustomFont;
-    src: url(Abel-Extended.otf);
+    src: url("fonts/JetBrainsMono-Light.ttf");
 }
 h1 {
     font-family: CustomFont;
@@ -14,6 +14,63 @@ h1 {
     font-size: 100px;
     color: #ffffff;
 }
+.mainlogothing {
+    background-color: #00000000;
+    font-family: CustomFont;
+    font-weight: normal;
+    text-align: center;
+    font-size: 140px;
+    color: #ffffff;
+}
+.mainscreenbuttons {
+    background-color: #00000000;
+    font-family: CustomFont;
+    font-weight: normal;
+    text-align: center;
+    font-size: 25px;
+    margin-right: 65px;
+    color: #ffffff;
+}
+.dlbutton {
+    background-color: #00000000;
+    font-family: CustomFont;
+    font-weight: normal;
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+}
+.thumby {
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 25px;
+    display: inline;
+    width: 120px;
+    height: 120px;
+}
+.notthumby {
+    
+    display: inline;
+    font-family: CustomFont;
+    font-weight: normal;
+    text-align: right;
+    font-size: 25px;
+    color: #ffffff;
+}
+.flashing {
+    background-color: #00000000;
+    font-family: CustomFont;
+    font-weight: normal;
+    text-align: center;
+    font-size: 140px;
+    color: #ffffff;
+    animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
 p {
     font-family: CustomFont;
     font-weight: normal;
