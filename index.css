@@ -1,9 +1,7 @@
 body {
     border: 0px;
     margin: 0px;
-    background-image: url(tile-transparent.png);
-    background-color: #11023a;
-    background-repeat: repeat;
+    background-color: #010016;
 }
 @font-face {
     font-family: CustomFont;
@@ -13,6 +11,7 @@ h1 {
     font-family: CustomFont;
     font-weight: normal;
     text-align: center;
+    font-size: 100px;
     color: #ffffff;
 }
 p {
