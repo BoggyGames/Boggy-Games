@@ -27,6 +27,10 @@ document.addEventListener('keydown', function(event) {
                 msg.innerHTML = "Odrer has been rsetored.";
                 msg.style.color = "aqua";
             }
+            else {
+                msg.innerHTML = "a portfolio of sorts,";
+                msg.style.color = "white";
+            }
         }
         
     }
