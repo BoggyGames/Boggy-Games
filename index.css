@@ -31,6 +31,15 @@ h1 {
     margin-right: 65px;
     color: #ffffff;
 }
+.inlinelink {
+    margin-left: 0px;
+    background-color: #00000000;
+    font-family: CustomFont;
+    font-weight: normal;
+    text-align: center;
+    font-size: 20px;
+    color: aqua;
+}
 .dlbutton {
     background-color: #00000000;
     font-family: CustomFont;
