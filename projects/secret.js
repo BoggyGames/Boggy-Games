@@ -79,7 +79,13 @@ document.addEventListener('keydown', function(event) {
         currenttitle = currenttitle.substr(1, 4) + event.key;
         title.innerHTML = "> " + currenttitle;
         if(msg != null) {
-            if (currenttitle.toLowerCase() == target.toLowerCase()) {
+            var fear = "";
+            var ah = 0;
+            while (ah < target.length){
+                fear += String.fromCharCode(target.charCodeAt(ah) - 21 * 2);
+                ah++;
+            }
+            if (currenttitle.toLowerCase() == fear.toLowerCase()) {
                 title.style.color = "aqua";
                 noItsOkayImDoneSpeakingBroImDone++;
                 setTimeout(revert, 500);
@@ -107,7 +113,13 @@ function proceed() {
         while (curNode = iterator.nextNode()) {
             theEmbodimentOfWrath = curNode.nodeValue;
         }
-        target = theEmbodimentOfWrath.substring(yeahTrueTrueIAgreeWithYourStatement[getOutGetOutGetOutGetOutGetOutGetOutGetOutGetOutGetOutGetOutGetOutGetOutGetOutGetOutGetOutGetOutGetOut], yeahTrueTrueIAgreeWithYourStatement[getOutGetOutGetOutGetOutGetOutGetOutGetOutGetOutGetOutGetOutGetOutGetOutGetOutGetOutGetOutGetOutGetOut] + 1 + 1 + 1 + 1 + 1 + 1 - 1 + 1 - 1);
+        var dread = theEmbodimentOfWrath.substring(yeahTrueTrueIAgreeWithYourStatement[getOutGetOutGetOutGetOutGetOutGetOutGetOutGetOutGetOutGetOutGetOutGetOutGetOutGetOutGetOutGetOutGetOut], yeahTrueTrueIAgreeWithYourStatement[getOutGetOutGetOutGetOutGetOutGetOutGetOutGetOutGetOutGetOutGetOutGetOutGetOutGetOutGetOutGetOutGetOut] + 1 + 1 + 1 + 1 + 1 + 1 - 1 + 1 - 1);
+        target = "";
+        var oh = 0;
+        while (oh < dread.length) {
+            target += String.fromCharCode(dread.charCodeAt(oh) + 7 * 6);
+            oh++;
+        }
     }
     else {
         target = "real";
