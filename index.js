@@ -6,7 +6,7 @@ var check = 0;
 var layer = 0;
 
 function checkForSpam() {
-    if (check > 10 && layer < 4) {
+    if (check > 7 && layer < 4) {
         layer++;
     }
     else if (layer > 0) {
