@@ -70,6 +70,14 @@ document.addEventListener('keydown', function(event) {
                 msg.innerHTML = "(may refer to: FROGMEN member/tasty treat).";
                 msg.style.color = "aqua";
             }
+            else if (currenttitle.toLowerCase() == "leila") {
+                msg.innerHTML = "FIIINE you can be included. Jeez.";
+                msg.style.color = "aqua";
+            }
+            else if (currenttitle.toLowerCase() == "satun") {
+                msg.innerHTML = "FIIINE you can be included too.";
+                msg.style.color = "aqua";
+            }
             else if (currenttitle.toLowerCase() == "begin") {
                 window.location.href = "https://www.boggy.tech/projects/secret"
             }
