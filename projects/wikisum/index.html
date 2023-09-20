@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wiki Summary Game</title>
+    <style>
+        @font-face {
+            font-family: "Abel";
+            src: url('fonts/abel-regular.ttf');
+        }
+        body { font-family: 'Abel'; background: rgb(255, 255, 255); color:rgb(29, 29, 29) }
+        ul { list-style-type: none; padding: 20px; }
+        li { padding: 15px; background: rgb(245, 245, 245); margin-bottom: 10px; border-radius: 5px; }
+        mark { color: rgb(223, 0, 30); background-color: transparent;}
+        .game { background: rgb(231, 231, 231);}
+        .win { background: rgb(255, 206, 206);}
+        .input { padding: 10px; width: 20%; font-family: 'Abel'; font-size: 1.2em; border-radius: 5px; border: 1px solid rgb(202, 202, 202); }
+        .submit { padding: 10px; width: 12%; font-family: 'Abel'; font-size: 1.2em; border-radius: 5px; border: 1px solid rgb(202, 202, 202); background: rgb(202, 202, 202); }
+        .howto { padding: 10px; width: 12%; font-family: 'Abel'; font-size: 1.2em; border-radius: 5px; border: 1px solid rgb(202, 202, 202); background: rgb(228, 228, 228); }
+        a { color: rgb(128, 128, 128); }
+    </style>
+</head>
+<body>
+    <h1>Wiki Summary Game <a href="https://ko-fi.com/boggygames">by Boggy</a></h1>
+    <div>
+        <ul id="list"></ul>
+    </div>
+    <div id="interact">
+        <input type="text" class="input" id="input" placeholder="Guess the Wikipedia article" />
+        <button id="guess" class="submit">Guess!</button>
+        <button id="hint" class="submit">Hint (5 left)</button>
+        <button id="howto" class="howto">How does this work?</button>
+
+    </div>
+    <script src="bundle.js"></script>
+</body>
+</html>
