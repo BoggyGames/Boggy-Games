@@ -79,7 +79,7 @@ document.addEventListener('keydown', function(event) {
                 msg.style.color = "aqua";
             }
             else if (currenttitle.toLowerCase() == "begin") {
-                window.location.href = "https://www.boggy.tech/projects/secret"
+                window.location.href = "https://www.boggy.dev/projects/secret"
             }
             else {
                 msg.innerHTML = "a portfolio of sorts,";
