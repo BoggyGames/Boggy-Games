@@ -95,6 +95,13 @@ p {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
+.tallcenter {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+  }
 table {
     font-family: CustomFont;
     font-weight: normal;
